@@ -1,5 +1,5 @@
 async function main() {
-    const response = await fetch('https://api.github.com/users/reybot')
+    const response = await fetch('https://api.github.com/users/mojombo')
     const data = await response.json()
 
     const imgTag = document.getElementById('img')
